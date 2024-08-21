@@ -66,13 +66,4 @@ RUN python -m pip install --upgrade pip \
     && pip install robotframework robotframework-seleniumlibrary
 
 COPY SeleniumLab1.robot  /SeleniumLab1.robot
-#RUN robot SeleniumLab1.robot
-
-# List the directory contents to confirm the file is copied
-#RUN ls -l /
-
-# Check the permissions of the test file
-#RUN ls -l /SeleniumLab1.robot
-
-# Run the test with verbose output
-#RUN robot --loglevel DEBUG /SeleniumLab1.robot
+RUN robot SeleniumLab1.robot
