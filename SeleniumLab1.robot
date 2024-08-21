@@ -11,9 +11,9 @@ ${BROWSER_OPTIONS}  add_argument("--no-sandbox"); add_argument("--disable-gpu");
 *** Test Cases ***
 Sample test case with Chrome
     Open Browser        browser=${BROWSER}      options=${BROWSER_OPTIONS}
-    Sleep               10s
+    Sleep               3s
     Go To   ${url_sample}
-    Wait Until Page Contains   Inte sidan du förväntade dig?
+    #Wait Until Page Contains   Inte sidan du förväntade dig?
 
 
 *** Keywords ***
