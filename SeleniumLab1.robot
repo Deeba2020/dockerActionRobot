@@ -21,4 +21,5 @@ Sample test case with Chrome
 #new test case
     #[Documentation]     
     #[Tags]      
-    #Click Link    
+    #Click Link 
+    #Click Link
